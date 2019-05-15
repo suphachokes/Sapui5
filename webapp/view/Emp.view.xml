@@ -1,0 +1,41 @@
+<mvc:View controllerName="sap.ui.demo.walkthrough.view.Emp" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<Table id="EmpoyeeTable">
+		<columns>
+			<Column>
+				<Text text="EmpID"/>
+			</Column>
+			<Column>
+				<Label text="Name"/>
+			</Column>
+			<Column>
+				<Label text="Test"/>
+			</Column>
+		</columns>
+		<!-- sap.m.Column -->
+		<items>
+			<ColumnListItem>
+				<cells>
+					<Text text="Text1"/>
+					<Text text="Text2"/>
+					<Text text="Text3"/>
+				</cells>
+			</ColumnListItem>
+			<ColumnListItem>
+				<cells>
+					<Text text="Text1"/>
+					<Text text="Text2"/>
+					<Text text="Text3"/>
+				</cells>
+			</ColumnListItem>
+			<ColumnListItem>
+				<cells>
+					<Text text="Text1"/>
+					<Text text="Text2"/>
+					<Text text="Text3"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+		<!-- sap.m.ListItemBase -->
+	</Table>
+	<Button type="Accept" text='CreateEmp' press="onPress"/>
+</mvc:View>
